@@ -1,0 +1,51 @@
+body{
+   margin: 0em;
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwaFtEJecO434ZxUFI-1T7NkOn5zJQqe_7ALcBkhyZqozgtIJYDTwJUbE90s92SlaFCB4&usqp=CAU);
+
+}
+.navbar{
+    background-color: rgb(216, 82, 82);
+}
+.cover{
+    height: 400px;
+    color: whitesmoke;
+    background-image: url(https://cdn2.mediotiempo.com/uploads/media/2020/11/26/maradona-gano-copa-mundo-mexico.jpg);
+    background-size: cover;
+}
+.cover-small{
+    height: 200px;
+    background-blend-mode: normal;
+}
+.card-title{
+    min-height: 3rem;
+}
+.cart-text{
+    min-height: 10 rem;
+}
+.list-champions{
+    overflow-x: scroll;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.champions-container{
+    display: flex;
+}
+.champions-container .card{
+    width: 300px;
+    flex-shrink: 0;
+    margin-right: 1rem;
+}
+.world-cup{
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+.world-cup img{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15,15,15,.5);
+}
+
+
+
